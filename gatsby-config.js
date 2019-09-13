@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Diseño web, Wordpress y Marketing digital - Boneluv',
+    title: 'Diseño web, Wordpress y Marketing digital - Boneluv.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
