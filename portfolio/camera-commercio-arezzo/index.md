@@ -7,6 +7,39 @@ template: "port"
 tags: ['HTML','CSS','JavaScript',Joomla]
 ---
 
-## Why do we use it?
+![Camera di Commercio Arezzo](/imgs/cc-italia.png#postimage)
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humor and the like).
+## Tareas
+
+**TECHE Clothing** es una empresa del sector de la **moda** de **venta al por menor**, Trabaja con marcas de ropa de mujer españolas. Mi trabajo con ellos fue desde el principio encargarme del **desarrollo web**, tanto de la **tienda online** como del **posicionamiento** y del **branding**.
+
+Con respecto al **desarrollo web** esta web está basada en **WordPress** con la funcionalidad de **Woocommerce** para la **tienda online**. Me encargue de diseñar la *plantilla HTML*, y aplicar los estilos necesarios en **CSS** para darle un toque distintivo con respecto a otras tiendas. Tambien me encargue del **mantenimiento** de la misma asi como **actualizacion** y uso de **plugins** para mejorar la experiencia durante la compra.
+
+
+
+## Tecnologías
+- HTML
+- CSS
+- JavaScript
+- PHP
+
+## Herramientas
+- WordPress
+- Google Search Console
+- Google Analytics
+- Adobe Photoshop
+- Adobe Illustrator
+
+## Preview
+
+![Camera di Commercio Arezzo](/imgs/ccitalia.png)
+
+<div style="margin: 20px 0;border-radius:8px;background-color: #2cf7a4;text-align: center">
+            <h1>Comentame tu proyecto y solicita tu presupuesto</h1>
+            <h2>Rápido y sin compromiso.</h2>
+            <div class="buttons" onclick="window.location.href='/contact'">
+                <button class="btn black big noicon reverse" style="margin-bottom:20px;" >
+                    <span>¿Hablamos?</span>
+                </button>
+            </div>
+        </div>

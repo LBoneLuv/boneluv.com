@@ -9212,8 +9212,13 @@ input[type=range].green::-webkit-slider-thumb {
   margin-left: -20px;
  }
 }
-img[src*="#postimage"] {
+.templatepost img[src*="#postimage"] {
   width:100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.templatepost img{
+  width: 100%;
 }
 .templatepost{
   width: 60%;
@@ -9222,9 +9227,34 @@ img[src*="#postimage"] {
   border-radius: 8px;
   padding:25px;
 }
+.templatepost ul{
+    border-left: 5px solid #2cf7a4;
+    background-color: #f1f1f1;
+    list-style-type: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    font-weight: 500;
+}
+.templatepost ul li{
+  width: auto;
+  line-height:1.5;
+  min-width: auto;
+}
+.templatepost ul li::before {
+  content: "•"; color: #2cf7a4;
+  display: inline-block; width: 1em;
+  margin-left: -1em
+}
+
 @media (max-width:600px){
   .templatepost{
     width: 85%;
+  }
+  .templatepost ul{
+    flex-direction:column;
   }
 }
 .templatepost h1{
@@ -12050,7 +12080,7 @@ img[src*="#postimage"] {
  font-weight:400;
  color:#313b57!important
 }
-#publicProfile #publicProfileFooterPromo {
+#publicProfileFooterPromo {
  display:block;
  background-color:#3c2dff;
  box-sizing:border-box;
@@ -12060,7 +12090,7 @@ img[src*="#postimage"] {
  transform-origin:bottom center;
  transition:transform .2s ease 0s
 }
-#publicProfile #publicProfileFooterPromo h1 {
+#publicProfileFooterPromo h1 {
  font-size:28px;
  font-weight:700;
  margin-bottom:15px;
@@ -12071,7 +12101,7 @@ img[src*="#postimage"] {
  width:96%
 }
 @media (max-width:500px) {
- #publicProfile #publicProfileFooterPromo h1 {
+#publicProfileFooterPromo h1 {
   max-width:none;
   box-sizing:border-box;
   padding:0 15px;
@@ -12081,12 +12111,12 @@ img[src*="#postimage"] {
  }
 }
 @media (max-width:350px) {
- #publicProfile #publicProfileFooterPromo h1 {
+#publicProfileFooterPromo h1 {
   font-size:20px;
   line-height:26px
  }
 }
-#publicProfile #publicProfileFooterPromo h2 {
+#publicProfileFooterPromo h2 {
  font-size:20px;
  font-weight:400;
  line-height:24px;
@@ -12096,7 +12126,7 @@ img[src*="#postimage"] {
  width:96%
 }
 @media (max-width:500px) {
- #publicProfile #publicProfileFooterPromo h2 {
+#publicProfileFooterPromo h2 {
   max-width:none;
   box-sizing:border-box;
   padding:0 15px;
@@ -12106,37 +12136,37 @@ img[src*="#postimage"] {
  }
 }
 @media (max-width:350px) {
- #publicProfile #publicProfileFooterPromo h2 {
+#publicProfileFooterPromo h2 {
   font-size:16px;
   line-height:18px
  }
 }
-#publicProfile #publicProfileFooterPromo .buttons {
+#publicProfileFooterPromo .buttons {
  max-width:455px;
  margin:0 auto;
  width:96%
 }
 @media (max-width:500px) {
- #publicProfile #publicProfileFooterPromo .buttons {
+#publicProfileFooterPromo .buttons {
   text-align:center
  }
 }
-#publicProfile #publicProfileFooterPromo .btn {
+#publicProfileFooterPromo .btn {
  height:44px;
  border:2px solid #fff;
  background-color:transparent
 }
-#publicProfile #publicProfileFooterPromo .btn span {
+#publicProfileFooterPromo .btn span {
  font-weight:600
 }
-#publicProfile #publicProfileFooterPromo .btn i,
-#publicProfile #publicProfileFooterPromo .btn span {
+#publicProfileFooterPromo .btn i,
+ #publicProfileFooterPromo .btn span {
  height:40px
 }
-#publicProfile #publicProfileFooterPromo .btn:hover {
+#publicProfileFooterPromo .btn:hover {
  background-color:hsla(0,0%,100%,.05)
 }
-#publicProfile #publicProfileBottomFooter {
+#publicProfileBottomFooter {
  background-color:rgba(5,8,33,.2);
  display:flex;
  justify-content:center;
@@ -12149,7 +12179,7 @@ img[src*="#postimage"] {
  height:36px;
  background-color:#050821
 }
-#publicProfile #publicProfileBottomFooter a {
+#publicProfileBottomFooter a {
  font-size:12px;
  font-weight:600;
  display:inline-flex;
@@ -12160,18 +12190,18 @@ img[src*="#postimage"] {
  cursor:pointer;
  color:#fff
 }
-#publicProfile #publicProfileBottomFooter a:hover {
+#publicProfileBottomFooter a:hover {
  text-decoration:underline;
  transition:.125s;
  cursor:pointer
 }
 @media (max-width:500px) {
- #publicProfile #publicProfileBottomFooter a {
+#publicProfileBottomFooter a {
   font-size:11px;
   margin:0 6px
  }
 }
-#publicProfile #publicProfileBottomFooter.bigger {
+#publicProfileBottomFooter.bigger {
  height:56px
 }
 #publicProfile.page-transition .pp-header {

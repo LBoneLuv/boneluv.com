@@ -121,7 +121,7 @@ const portPage = (props) => {
 
   export const portQuery = graphql`
     query portQuery {
-      allMarkdownRemark(filter: { frontmatter: {template: {eq: "port"}}}, sort: { order: DESC, fields: [frontmatter___date] }) {
+      allMarkdownRemark(filter: { frontmatter: {template: {eq: "port"}}}, sort: { order: ASC, fields: [frontmatter___date] }) {
         edges {
           node {
             fields{

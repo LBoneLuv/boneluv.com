@@ -11,7 +11,6 @@ exports.components = {
   "component---src-pages-faq-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-index-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-portfolio-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\portfolio.js" /* webpackChunkName: "component---src-pages-portfolio-js" */),
-  "component---src-pages-prices-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\prices.js" /* webpackChunkName: "component---src-pages-prices-js" */),
-  "component---src-pages-privacy-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\privacy.js" /* webpackChunkName: "component---src-pages-privacy-js" */)
+  "component---src-pages-prices-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\prices.js" /* webpackChunkName: "component---src-pages-prices-js" */)
 }
 
