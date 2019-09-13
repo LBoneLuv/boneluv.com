@@ -28,14 +28,14 @@ export default () => (
                     <div class="links">
                         <ul>
                             <li>Enlaces</li>
-                            <li><a href="about">Sobre mí</a></li>
-                            <li><a href="portfolio">Portfolio</a></li>
-                            <li><a href="prices">Planes</a></li>
+                            <li><Link to="/about">Sobre mí</Link></li>
+                            <li><Link to="/portfolio">Portfolio</Link></li>
+                            <li><Link to="/prices">Planes</Link></li>
                         </ul>
                         <ul>
                             <li>Información</li>
-                            <li><a href="faq">Preguntas frecuentes</a></li>
-                            <li><a href="privacy">Politica de privacidad</a></li>
+                            <li><Link to="/faq">Preguntas frecuentes</Link></li>
+                            <li><Link to="/privacy">Politica de privacidad</Link></li>
                             <li><a href="mailto:boneluvco@gmail.com" target="_blank">boneluvco@gmail.com</a></li>
                         </ul>
                         <ul>
