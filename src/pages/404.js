@@ -5,6 +5,7 @@ import { Link } from 'gatsby'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faHome} from "@fortawesome/free-solid-svg-icons"
 
+require ("./main.css")
 export default () => (
     <div style={{background:'#FFF'}}>
         <Header/>

@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket,faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faArrowAltCircleRight,faFileAlt } from "@fortawesome/free-regular-svg-icons"
 
+require ("./main.css")
 const IndexPage = (props) => {
     const postList = props.data.allMarkdownRemark;
     return (

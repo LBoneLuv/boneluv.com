@@ -63,6 +63,7 @@ import { faArrowAltCircleRight,faFileAlt, faEnvelope } from "@fortawesome/free-r
 //     )
 //   }
 // }
+require ("./main.css")
 const portPage = (props) => {
     const portList = props.data.allMarkdownRemark;
     return (

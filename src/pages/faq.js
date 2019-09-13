@@ -3,6 +3,7 @@ import {Link} from "gatsby"
 import Header from "../components/header"
 import Footer from "../components/footer"
 
+require ("./main.css")
 export default () => (
     <div style={{background:'#FFF'}}>
         <Header/>
