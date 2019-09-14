@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/boneluv gatsby/boneluv/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"gatsby-boneluv","short_name":"boneluv","start_url":"/","theme_color":"#ff187c","icon":"src/boneicono.png"},
+    },{
       plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/boneluv gatsby/boneluv/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]

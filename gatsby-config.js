@@ -9,6 +9,16 @@ module.exports = {
     title: 'Diseño web, Wordpress y Marketing digital - Boneluv.com',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-boneluv`,
+        short_name: `boneluv`,
+        start_url: `/`,
+        theme_color: `#ff187c`,
+        icon: `src/boneicono.png`
+      }
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-sharp`,
