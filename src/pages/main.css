@@ -8386,7 +8386,8 @@ input[type=range].green::-webkit-slider-thumb {
  .landing-item .landing-content {
   flex-wrap:wrap;
   flex-direction:column-reverse;
-  margin-bottom:14vh
+  margin-bottom:14vh;
+  margin-top:20px;
  }
 }
 @media (max-width:700px) {
@@ -8467,6 +8468,9 @@ input[type=range].green::-webkit-slider-thumb {
  .landing-item .landing-content.right {
   flex-direction:row;
   margin-bottom:10vh
+ }
+ .landing-item .landing-content .half a h5{
+   font-size:20px !important;
  }
 }
 .landing-item .landing-content.right .half {
