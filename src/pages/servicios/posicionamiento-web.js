@@ -125,7 +125,7 @@ export default () => (
             </div>
         </div>
         <h3 style={{textAlign:'center',fontSize: '32px', fontWeight:'800',marginBottom:'30px'}}>Solicita tu presupuesto personalizado</h3>
-        <form name="servicios" method="POST" data-netlify="true" id="jobsSidebarFilter" style={{maxWidth:'600px',width:'90%',margin:'0 auto'}} >                
+        <form name="servicios" method="POST" data-netlify="true" action="/submited" id="jobsSidebarFilter" style={{maxWidth:'600px',width:'90%',margin:'0 auto'}} >                
         <input type="hidden" name="form-name" value="servicios" />
                 <div class="filter-group">
                     <div class="filter-label">Nombre</div>
