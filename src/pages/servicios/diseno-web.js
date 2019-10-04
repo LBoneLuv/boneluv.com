@@ -115,7 +115,7 @@ export default () => (
         </div>
         <h3 style={{textAlign:'center',fontSize: '32px', fontWeight:'800',marginBottom:'30px'}}>Solicita tu presupuesto personalizado</h3>
         <form name="servicios" method="POST" data-netlify="true" id="jobsSidebarFilter" style={{width:'90%',margin:'0 auto'}} >                
-                
+        <input type="hidden" name="form-name" value="servicios" />
                 <div class="filter-group">
                     <div class="filter-label">Nombre</div>
                     <input type="text" name="nombre" placeholder="Escribe tu nombre" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
