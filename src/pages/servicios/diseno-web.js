@@ -118,24 +118,24 @@ export default () => (
                 
                 <div class="filter-group">
                     <div class="filter-label">Nombre</div>
-                    <input type="text" placeholder="Escribe tu nombre" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
                 <div style={{display:'flex',justifyContent:'space-between'}}>
                 <div class="filter-group" style={{width:'45%'}}>
                     <div class="filter-label">Email</div>
-                    <input type="email" placeholder="persona@increible.com" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="email" name="email" placeholder="persona@increible.com" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
 
                 <div class="filter-group" style={{width:'45%'}}>
                     <div class="filter-label">Teléfono</div>
-                    <input type="tel" placeholder="+34 600 00 00 00" pattern="+[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="tel" name="tel" placeholder="+34 600 00 00 00" pattern="+[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
                 </div>
                 
 
                 <div class="filter-group">
                     <div class="filter-label">Servicio</div>
-                    <select ng-model="jobFilter.field" class="exterior-label-select ng-pristine ng-untouched ng-valid ng-empty" id="jobFilterType">
+                    <select name="servicio" ng-model="jobFilter.field" class="exterior-label-select ng-pristine ng-untouched ng-valid ng-empty" id="jobFilterType">
                         <option value="" selected="">Elegir</option>
                         <optgroup label="Diseño web" class="ng-scope">
                            <option value="Diseño web : Landing page" class="ng-binding ng-scope">Landing page</option>
@@ -176,14 +176,14 @@ export default () => (
                 
                 <div class="filter-group">
                     <div class="toggle-group">
-                        <input type="checkbox" id="privacy" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
+                        <input name="privacy" type="checkbox" id="privacy" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
                         <label for="privacy">
                             <span>Acepto la politica de privacidad</span>
                             <div class="switch"></div>
                         </label>
                     </div>
                     <div class="toggle-group">
-                        <input type="checkbox" id="promo" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
+                        <input type="checkbox" name="promo" id="promo" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
                         <label for="promo">
                             <span>Acepto recibir correos promocionales</span>
                             <div class="switch"></div>
