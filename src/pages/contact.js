@@ -19,31 +19,33 @@ export default () => (
                         <h2 class="small">Presupuestos y consultas</h2>
                     </div>
                 <div class="landing-item" style={{marginBottom: '100px'}}>
+                <h5 style={{textAlign:'center',marginBottom:'40px',fontSize:'22px', fontWeight:'800'}}>Solicita tu presupuesto personalizado</h5>
                     <div class="landing-content right">
+                    
                       <div class="half">
-                            <h5>Solicita ya tu presupuesto personalizado</h5>
+                      
             <form name="servicios" method="POST" data-netlify="true" action="/submited" id="jobsSidebarFilter" style={{width:'100%',margin:'0 auto'}} >                
-                
+            <input type="hidden" name="form-name" value="servicios" />
                 <div class="filter-group">
                     <div class="filter-label">Nombre</div>
-                    <input type="text" placeholder="Escribe tu nombre" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
                 <div style={{display:'flex',justifyContent:'space-between'}}>
                 <div class="filter-group" style={{width:'40%'}}>
                     <div class="filter-label">Email</div>
-                    <input type="email" placeholder="persona@increible.com" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="email" name="email" placeholder="persona@increible.com" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
 
                 <div class="filter-group" style={{width:'40%'}}>
                     <div class="filter-label">Teléfono</div>
-                    <input type="tel" placeholder="+34 600 00 00 00" pattern="+[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="tel" name="tel" placeholder="+34 600 00 00 00" pattern="+[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
                 </div>
                 
 
                 <div class="filter-group">
                     <div class="filter-label">Servicio</div>
-                    <select ng-model="jobFilter.field" class="exterior-label-select ng-pristine ng-untouched ng-valid ng-empty" id="jobFilterType">
+                    <select name="servicio" class="exterior-label-select ng-pristine ng-untouched ng-valid ng-empty" id="jobFilterType">
                         <option value="" selected="">Elegir</option>
                         <optgroup label="Diseño web" class="ng-scope">
                            <option value="Diseño web : Landing page" class="ng-binding ng-scope">Landing page</option>
@@ -80,28 +82,31 @@ export default () => (
                     </select>
                 </div>
                
-                
+                <div class="filter-group" style={{width:'100%'}}>
+                    <div class="filter-label">Comentarios</div>
+                    <textarea type="asunto" name="asunto" style={{resize:'none',width:'100%'}} placeholder="Proyecto personalizado" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                </div>
                 
                 <div class="filter-group">
-                    <div class="toggle-group">
-                        <input type="checkbox" id="privacy" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
+                    <div class="toggle-group" style={{marginBottom:'10px'}}>
+                        <input type="checkbox" name="privacy" id="privacy" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
                         <label for="privacy">
                             <span>Acepto la politica de privacidad</span>
                             <div class="switch"></div>
                         </label>
                     </div>
                     <div class="toggle-group">
-                        <input type="checkbox" id="promo" class="ng-pristine ng-untouched ng-valid ng-not-empty" required />
+                        <input type="checkbox" name="promo" id="promo" class="ng-pristine ng-untouched ng-valid ng-not-empty"/>
                         <label for="promo">
                             <span>Acepto recibir correos promocionales</span>
                             <div class="switch"></div>
                         </label>
                     </div>
                 </div>
-                
+                <div data-netlify-recaptcha="true"></div>
 
                 <div class="job-filter-action">
-                    <button class="btn black noicon" type="submit">
+                    <button class="btn black noicon" type="submit" style={{width:'100%'}}>
                         <i><FontAwesomeIcon icon={faPaperPlane} /></i>
                         <span>Enviar</span>
                     </button>
@@ -111,6 +116,7 @@ export default () => (
             </form>
                       </div>
                       <div class="half" style={{display: 'flex', flexDirection:'column'}}>
+                      
                           <div>
                                 <p style={{fontSize: '20px',fontWeight: '600'}}>Escribeme</p>
                                 <a href="mailto:boneluvco@gmail.com" target="_blank"><h5 style={{color: '#FF187C'}}>boneluvco@gmail.com</h5></a>

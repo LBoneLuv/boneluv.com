@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/boneluv gatsby/boneluv/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/bone 04-10-19/boneluv.com/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-boneluv","short_name":"boneluv","start_url":"/","theme_color":"#ff187c","icon":"src/boneicono.png"},
     },{
-      plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/boneluv gatsby/boneluv/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/bone 04-10-19/boneluv.com/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
