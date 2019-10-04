@@ -19,7 +19,7 @@ export default () => (
                                 <Link to="portfolio">Portfolio</Link>
                             </div>
                             <div class="item">
-                                    <Link to="prices">Planes</Link>
+                                    <Link to="prices">Servicios</Link>
                                 </div>
                             <div class="item">
                                     <Link to="blog">Blog</Link>

@@ -4945,6 +4945,10 @@ nav.main {
  height:58px;
  transition:0s
 }
+
+b{
+  font-weight: 600;
+}
 @media (max-width:900px) {
  nav.main {
   padding:0 15px
@@ -5499,6 +5503,7 @@ a.btn {
 }
 .richEdit,
 input[type=email],
+input[type=tel],
 input[type=password],
 input[type=text],
 textarea {
@@ -5520,6 +5525,7 @@ textarea {
 }
 .richEdit::-webkit-input-placeholder,
 input[type=email]::-webkit-input-placeholder,
+input[type=tel]::-webkit-input-placeholder,
 input[type=password]::-webkit-input-placeholder,
 input[type=text]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -5528,6 +5534,7 @@ textarea::-webkit-input-placeholder {
 }
 .richEdit::-moz-placeholder,
 input[type=email]::-moz-placeholder,
+input[type=tel]::-moz-placeholder,
 input[type=password]::-moz-placeholder,
 input[type=text]::-moz-placeholder,
 textarea::-moz-placeholder {
@@ -5536,6 +5543,7 @@ textarea::-moz-placeholder {
 }
 .richEdit:-ms-input-placeholder,
 input[type=email]:-ms-input-placeholder,
+input[type=tel]:-ms-input-placeholder,
 input[type=password]:-ms-input-placeholder,
 input[type=text]:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
@@ -5544,6 +5552,7 @@ textarea:-ms-input-placeholder {
 }
 .richEdit:-moz-placeholder,
 input[type=email]:-moz-placeholder,
+input[type=tel]:-moz-placeholder,
 input[type=password]:-moz-placeholder,
 input[type=text]:-moz-placeholder,
 textarea:-moz-placeholder {
@@ -5553,12 +5562,14 @@ textarea:-moz-placeholder {
 .richEdit:hover,
 input[type=email]:hover,
 input[type=password]:hover,
+input[type=tel]:hover,
 input[type=text]:hover,
 textarea:hover {
  border-color:#a0afcd
 }
 .richEdit:focus,
 input[type=email]:focus,
+input[type=tel]:focus,
 input[type=password]:focus,
 input[type=text]:focus,
 textarea:focus {
@@ -5567,6 +5578,7 @@ textarea:focus {
 }
 .richEdit:focus+label,
 input[type=email]:focus+label,
+input[type=tel]:focus+label,
 input[type=password]:focus+label,
 input[type=text]:focus+label,
 textarea:focus+label {
@@ -5574,6 +5586,7 @@ textarea:focus+label {
 }
 .richEdit:focus:hover,
 input[type=email]:focus:hover,
+input[type=tel]:focus:hover,
 input[type=password]:focus:hover,
 input[type=text]:focus:hover,
 textarea:focus:hover {
@@ -5581,6 +5594,7 @@ textarea:focus:hover {
 }
 .richEdit:disabled,
 input[type=email]:disabled,
+input[type=tel]:disabled,
 input[type=password]:disabled,
 input[type=text]:disabled,
 textarea:disabled {
@@ -5588,6 +5602,7 @@ textarea:disabled {
 }
 .richEdit:disabled:hover,
 input[type=email]:disabled:hover,
+input[type=tel]:disabled:hover,
 input[type=password]:disabled:hover,
 input[type=text]:disabled:hover,
 textarea:disabled:hover {
@@ -5595,6 +5610,7 @@ textarea:disabled:hover {
  cursor:default
 }
 input[type=email],
+input[type=tel],
 input[type=password],
 input[type=text] {
  padding:6px 8px;
@@ -10090,27 +10106,33 @@ input[type=range].green::-webkit-slider-thumb {
   /* max-resolution:25px */
  /* } */
 /*} */
-.designer-info-page .designer-features {
- display:block;
- width:560px;
+.designer-features {
+ display:flex;
+ width:80%;
+ flex-grow: 2;
+ flex-wrap: wrap;
+ justify-content: space-around;
  margin:70px auto 65px
 }
 @media (max-width:750px) {
- .designer-info-page .designer-features {
+.designer-features {
   width:92%;
+  flex-direction: row;
   margin:50px auto
  }
 }
-.designer-info-page .designer-features .feature {
+.designer-features .feature {
  display:block;
- padding:14px 0
+ padding:14px 0;
+ width: 45%;
 }
 @media (max-width:750px) {
- .designer-info-page .designer-features .feature {
-  padding:10px 0
+.designer-features .feature {
+  padding:10px 0;
+  width: 90%;
  }
 }
-.designer-info-page .designer-features .feature h5 {
+.designer-features .feature h5 {
  display:block;
  font-weight:700;
  font-size:20px;
@@ -10118,11 +10140,11 @@ input[type=range].green::-webkit-slider-thumb {
  position:relative
 }
 @media (max-width:550px) {
- .designer-info-page .designer-features .feature h5 {
+.designer-features .feature h5 {
   font-size:18px
  }
 }
-.designer-info-page .designer-features .feature h5 i {
+.designer-features .feature h5 i {
  position:absolute;
  left:0;
  margin-left:-40px;
@@ -10131,17 +10153,17 @@ input[type=range].green::-webkit-slider-thumb {
  text-align:center;
  top:0;
  font-size:28px;
- color:#3c2dff;
+ color:#ff187c;
  margin-top:-4px
 }
 @media (max-width:750px) {
- .designer-info-page .designer-features .feature h5 i {
+.designer-features .feature h5 i {
   right:0;
   left:auto;
   margin-left:0
  }
 }
-.designer-info-page .designer-features .feature p {
+.designer-features .feature p {
  display:block;
  padding:15px 0;
  font-size:16px;
@@ -10150,13 +10172,13 @@ input[type=range].green::-webkit-slider-thumb {
  font-weight:500
 }
 @media (max-width:850px) {
- .designer-info-page .designer-features .feature p {
+.designer-features .feature p {
   font-size:14px;
   line-height:30px
  }
 }
 @media (max-width:550px) {
- .designer-info-page .designer-features .feature p {
+.designer-features .feature p {
   line-height:24px;
   padding:10px 0;
   font-size:12px
@@ -11295,11 +11317,6 @@ input[type=range].green::-webkit-slider-thumb {
 #jobsSidebarPromo .btn span {
  flex-grow:0
 }
-@media (max-width:1180px) {
- #jobsSidebarFilter {
-  display:none
- }
-}
 #jobsSidebarFilter .filter-group {
  display:block;
  padding:8px 0
@@ -11311,8 +11328,11 @@ input[type=range].green::-webkit-slider-thumb {
  color:#050821;
  margin-bottom:4px
 }
-#jobsSidebarFilter .filter-group input[type=text] {
+#jobsSidebarFilter .filter-group input[type=text]{
  width:100%
+}
+#jobsSidebarFilter .filter-group input[type=tel], #jobsSidebarFilter .filter-group input[type=mail]{
+  width: 100%
 }
 #jobsSidebarFilter .job-filter-action {
  display:block;

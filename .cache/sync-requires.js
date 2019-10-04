@@ -14,6 +14,8 @@ exports.components = {
   "component---src-pages-faq-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\faq.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\index.js"))),
   "component---src-pages-portfolio-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\portfolio.js"))),
-  "component---src-pages-prices-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\prices.js")))
+  "component---src-pages-prices-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\prices.js"))),
+  "component---src-pages-servicios-diseno-web-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\servicios\\diseno-web.js"))),
+  "component---src-pages-submited-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\boneluv gatsby\\boneluv\\src\\pages\\submited.js")))
 }
 
