@@ -31,12 +31,12 @@ export default () => (
                     <input type="text" name="nombre" placeholder="Escribe tu nombre" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
                 <div style={{display:'flex',justifyContent:'space-between'}}>
-                <div class="filter-group" style={{width:'40%'}}>
+                <div class="filter-group" style={{width:'47%'}}>
                     <div class="filter-label">Email</div>
-                    <input type="email" name="email" placeholder="persona@increible.com" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
+                    <input type="email" name="email" style={{width:'100%'}} placeholder="persona@increible.com" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
 
-                <div class="filter-group" style={{width:'40%'}}>
+                <div class="filter-group" style={{width:'47%'}}>
                     <div class="filter-label">Teléfono</div>
                     <input type="tel" name="tel" placeholder="+34 600 00 00 00" pattern="+[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}" class="ng-valid ng-dirty ng-valid-parse ng-empty ng-touched" />
                 </div>
