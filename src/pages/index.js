@@ -20,7 +20,7 @@ export default () => (
                 <h1>Diseño web a medida</h1>
                 <h2>Diseños web responsive adaptado a las últimas tendencias y con las mejores tecnologías.</h2>
                 <div class="action">
-                        <Link class="btn noicon" to="/plans/webprices">
+                        <Link class="btn noicon" to="servicios/diseno-web">
                                 <FontAwesomeIcon  icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                                 <span>Ver planes</span>
                             </Link>
@@ -44,7 +44,7 @@ export default () => (
                         <p>
                             Optimizacion web para SEO on page y off page, para que tu web despegue.
                         </p>
-                        <Link class="btn noicon" to="/plans/seoprices">
+                        <Link class="btn noicon" to="servicios/posicionamiento-web">
                             <FontAwesomeIcon icon={faRocket} style={{marginTop:'10px'}}/>
                             <span>Ver planes de posicionamiento</span>
                         </Link>
@@ -58,7 +58,7 @@ export default () => (
                         <p>
                            Aumenta tu presencia en las redes sociales y destaca sobre tu competencia con contenidos únicos y de valor.
                         </p>
-                        <Link class="btn noicon" to="/plans/socialprices">
+                        <Link class="btn noicon" to="servicios/redes-sociales">
                             <FontAwesomeIcon icon={faUsers} style={{marginTop:'10px'}}/>
                             <span>Ver planes de redes sociales</span>
                         </Link>

@@ -37,7 +37,7 @@ export default () => (
                         </div>
                 
                     </Link>
-                    <section class="resume-card ng-scope" style={{backgroundColor: '#8bc34a'}} onclick="window.location='seoprices'">
+                    <Link class="resume-card ng-scope" style={{backgroundColor: '#8bc34a'}} to="servicios/posicionamiento-web">
                         <div class="title ng-binding">
                            Posicionamiento web
                         </div>
@@ -51,7 +51,7 @@ export default () => (
                                     </small>
                         </div>
                 
-                    </section>
+                    </Link>
                     
                     <section class="resume-card ng-scope" style={{backgroundColor: '#ff4081'}} onclick="window.location='socialprices'">
                             <div class="title ng-binding">

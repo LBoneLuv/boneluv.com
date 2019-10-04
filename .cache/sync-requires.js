@@ -16,6 +16,7 @@ exports.components = {
   "component---src-pages-portfolio-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\portfolio.js"))),
   "component---src-pages-prices-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\prices.js"))),
   "component---src-pages-servicios-diseno-web-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\diseno-web.js"))),
+  "component---src-pages-servicios-posicionamiento-web-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\posicionamiento-web.js"))),
   "component---src-pages-submited-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\submited.js")))
 }
 

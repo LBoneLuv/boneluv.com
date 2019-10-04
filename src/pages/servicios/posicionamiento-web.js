@@ -3,8 +3,9 @@ import Helmet from "react-helmet"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRocket,faUsers, faDraftingCompass, faBullhorn, faCrop, faMagic, faCheck, faCheckCircle, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
-import { faArrowAltCircleRight,  } from "@fortawesome/free-regular-svg-icons"
+import { faRocket,faUsers, faDraftingCompass, faBullhorn, faCrop, faMagic, faCheck, faCheckCircle, faPaperPlane, faCode, faChartBar, faSearch,faEye } from '@fortawesome/free-solid-svg-icons'
+import { faArrowAltCircleRight } from "@fortawesome/free-regular-svg-icons"
+import { faGoogle} from "@fortawesome/free-brands-svg-icons"
 import {Link, graphql } from "gatsby"
 
 require ("../main.css")
@@ -12,53 +13,55 @@ require ("../main.css")
 export default () => (
     <div style={{background:'white'}}>
         <Helmet>
-            <title>Diseño web | Landing, web corporativa, tienda online - Boneluv</title>
+            <title>Posicionamiento web | SEO On Page, Off Page, SEM - Boneluv</title>
         </Helmet>
         <Header/>
         <div>
             <div class="landing-silhouette">
-                <h1 class="big">Diseño web</h1>
-                <h2 class="small">Profesional y a medida</h2>
+                <h1 class="big">SEO</h1>
+                <h2 class="small">Posicionamiento web</h2>
             </div>
             <h3 style={{textAlign:'center',fontSize: '32px', fontWeight:'800',marginBottom:'30px'}}>Descubre nuestro proceso</h3>
             <div class="designer-features">
                 
                 <div class="feature">
                     <h5>
-                        Diseño web a medida
-                        <i><FontAwesomeIcon icon={faDraftingCompass} /></i>
+                        Analisis completo
+                        <i><FontAwesomeIcon icon={faSearch} /></i>
                     </h5>
                     <p>
-                        Cada proyecto es <b>único</b> por eso cada <b>diseño</b> o <b>desarrollo</b> es hecho <b>a medida</b> y ajustado para cada cliente
-                        utilizando las <b>mejores tecnologías</b> y servicios disponibles adaptándose a las necesidades de cada cliente.
+                        Analisis web completo de tu web y de tus competidores, analizando palabras clave, contenidos y posicionamiento para obtener
+                        los mejores resultados.
                     </p>
                 </div>
                 <div class="feature">
                     <h5>
-                        Estrategia online
-                        <i><FontAwesomeIcon icon={faBullhorn} /></i>
-                    </h5>
-                    <p>Analisis de tu negocio con uso de herramientas de medición para poder realizar el trabajo optimizado a un nicho en concreto
-                        para su correcto posicionamiento.
-                    </p>
-                </div>
-                <div class="feature">
-                    <h5>
-                        Diseño web responsive
-                        <i><FontAwesomeIcon icon={faCrop} /></i>
-                    </h5>
-                    <p>Diseño adaptado para y optimizado para uso en dispositivos moviles, y en cualquier tipo de pantallas para llegar al maximo
-                        numero de personas posibles.
-                    </p>
-                </div>
-                <div class="feature">
-                    <h5>
-                        Experiencia de usuario
-                        <i><FontAwesomeIcon icon={faMagic} /></i>
+                        Optimización de código
+                        <i><FontAwesomeIcon icon={faCode} /></i>
                     </h5>
                     <p>
-                        Uso de las mejores herramientas y un codigo unico para proporcionar la mejor experiencia de usuario a los visitantes de tu
-                        web para que hagan uso y se sientan comodos navegando por tu web.
+                        Optimización de cada una de las páginas de tu web para aumentar el posicionamiento y las palabras clava utilizadas mediante snippets
+                        y etiquetas de marcado.
+                    </p>
+                </div>
+                <div class="feature">
+                    <h5>
+                        Motores de búsqueda
+                        <i><FontAwesomeIcon icon={faGoogle} /></i>
+                    </h5>
+                    <p>
+                        Registro de tu web en los principales motores de busqueda como Google, Bing, Yahoo, etc. Integración con Google Analytics para el 
+                        seguimiento de visitas e informes de uso de tu web.
+                    </p>
+                </div>
+                <div class="feature">
+                    <h5>
+                        Monitorización continua
+                        <i><FontAwesomeIcon icon={faEye} /></i>
+                    </h5>
+                    <p>
+                        Seguimiento del posicionamiento de tu web una vez finalizado el trabajo para recomendarte las optimizaciónes adecuadas para
+                        no perder posicionamiento.
                     </p>
                 </div>
                 
@@ -67,10 +70,10 @@ export default () => (
             <div class="landing-item" style={{marginBottom:'20px;'}}>
                 <div class="landing-content left">
                 <div class="image" style={{marginBottom:'40px',marginTop:'40px'}}>
-                        <img src={'../imgs/landing.svg'} />
+                        <img src={'../imgs/seolocal.svg'} />
                     </div>
                     <div class="half">
-                        <h5>Landing page</h5>
+                        <h5>SEO Local</h5>
                         <p>Página diseñada para atraer personas a tu negocio y convertirlos en clientes potenciales.</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Orientada a conversiones</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formulario/compra</p>
@@ -86,7 +89,7 @@ export default () => (
             <div class="landing-item"  style={{marginBottom:'80px;'}}>
                 <div class="landing-content right">
                     <div class="half">
-                        <h5>Web corporativa</h5>
+                        <h5>SEO Empresa</h5>
                         <p>Página web corporativa para ofertar y mostrar sus servicios profesionales y conseguir presencia en internet.</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Ofrecer información sobre empresa, productos o servicios</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Aumentar presencia local y en el extranjero</p>
@@ -97,17 +100,17 @@ export default () => (
                         </Link>
                     </div>
                     <div class="image" style={{marginBottom:'40px',marginTop:'40px'}}>
-                        <img src={'../imgs/business.svg'} />
+                        <img src={'../imgs/seoempresa.svg'} />
                     </div>
                 </div>
             </div>
             <div class="landing-item"  style={{marginBottom:'20px;'}}>
                 <div class="landing-content left">
                 <div class="image" style={{marginBottom:'40px',marginTop:'40px'}}>
-                        <img src={'../imgs/shoponline.svg'} />
+                        <img src={'../imgs/seoecommerce.svg'} />
                     </div>
                     <div class="half">
-                        <h5>Tienda online</h5>
+                        <h5>SEO Ecommerce</h5>
                         <p>Obtén tu propia tienda online para incrementar vender sus productos y aumentar sus ingresos.</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Catálogo de productos</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formulario/compra</p>
