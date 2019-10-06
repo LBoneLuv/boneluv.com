@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-prices-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\prices.js" /* webpackChunkName: "component---src-pages-prices-js" */),
   "component---src-pages-servicios-diseno-web-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\diseno-web.js" /* webpackChunkName: "component---src-pages-servicios-diseno-web-js" */),
   "component---src-pages-servicios-posicionamiento-web-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\posicionamiento-web.js" /* webpackChunkName: "component---src-pages-servicios-posicionamiento-web-js" */),
+  "component---src-pages-servicios-redes-sociales-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\redes-sociales.js" /* webpackChunkName: "component---src-pages-servicios-redes-sociales-js" */),
   "component---src-pages-submited-js": () => import("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\submited.js" /* webpackChunkName: "component---src-pages-submited-js" */)
 }
 

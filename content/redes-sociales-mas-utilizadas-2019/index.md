@@ -1,14 +1,14 @@
 ---
-title: Cómo mejorar mi SEO en WordPress
-description: ¡Aumenta tu SEO con algunas estrategias básicas!
+title: Redes sociales más utilizadas en 2019
+description: Descubre cuales son las redes que más triunfan
 date: '2018-12-2'
-image: ./imgs/wordpresscover.svg
+image: ./imgs/redes-sociales.svg
 template: 'blog'
-tags: ['seo','wordpress','posicionamiento']
+tags: ['redes sociales','marketing']
 ---
-![SEO](/imgs/wordpresscover.png#postimage)
+![SEO](/imgs/redes-sociales.png#postimage)
 
->¡Aumenta tu SEO con algunas estrategias básicas!
+>Descubre cuales son las redes que más triunfan
 
 Los sitios de **WordPress** son muy populares. Tan popular que hay carreras basadas solo en las aplicaciones de personalización y creación de **plugins** para los sitios. Siendo ese el caso, aquellos que usan **WordPress** deben diferenciarse de la manada si desean tener éxito en la página de resultados del **motor de búsqueda (SERP)**. Para hacer esto, hay algunas estrategias simples que puedes implementar.
 
