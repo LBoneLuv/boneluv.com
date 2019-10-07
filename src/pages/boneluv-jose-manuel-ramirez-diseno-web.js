@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import {Link, graphql } from "gatsby"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket,faUsers } from '@fortawesome/free-solid-svg-icons'
 import { faArrowAltCircleRight,faFileAlt } from "@fortawesome/free-regular-svg-icons"
@@ -21,9 +22,9 @@ export default () => (
                     <div class="text-content">
                         <div class="name ng-binding ng-scope">José Manuel Ramírez</div>
                         <div class="headline ng-binding ng-scope">Desarrollador web</div>
-                        <div class="location basefont ng-binding ng-scope">Fuentes de Andalucía, SE</div>
+                        <div class="location basefont ng-binding ng-scope">Fuentes de Andalucía, Sevilla</div>
                         <div class="contact-info">
-                        <div class="contact basefont ng-binding ng-scope">info@boneluv.es</div>
+                        <div class="contact basefont ng-binding ng-scope">boneluvco@gmail.com</div>
                         <div class="contact basefont ng-binding ng-scope">+34644770223</div>
                         <a class="contact basefont ng-binding ng-scope" href="https://boneluv.com" target="_blank" >boneluv.com</a>
                             
@@ -239,10 +240,10 @@ export default () => (
             <h1>Comentame tu proyecto y solicita tu presupuesto</h1>
             <h2>Rápido y sin compromiso.</h2>
             <div class="buttons" onclick="window.location='contact'">
-                <button class="btn black big noicon reverse" >
+                <Link class="btn black big noicon reverse" to="/contacto">
                     
                     <span>¿Hablamos?</span>
-                </button>
+                </Link>
             </div>
         </div>
         </div>

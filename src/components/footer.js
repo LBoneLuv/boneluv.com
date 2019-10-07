@@ -28,9 +28,9 @@ export default () => (
                     <div class="links">
                         <ul>
                             <li>Enlaces</li>
-                            <li><Link to="/about">Sobre mí</Link></li>
+                            <li><Link to="/boneluv-jose-manuel-ramirez-diseno-web">Sobre mí</Link></li>
                             <li><Link to="/portfolio">Portfolio</Link></li>
-                            <li><Link to="/prices">Planes</Link></li>
+                            <li><Link to="/planes-y-precios-diseno-web-marketing-digital">Planes</Link></li>
                         </ul>
                         <ul>
                             <li>Información</li>

@@ -1,7 +1,7 @@
 ---
 title: TECHE Clothing
 description: Desarrollo web ecommerce
-date: '2018-12-2'
+date: '2017-12-2'
 image: 'imgs/techecover.png'
 template: "port"
 tags: ['HTML','CSS','JavaScript','WooCommerce']

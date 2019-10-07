@@ -13,25 +13,25 @@ export default () => (
                         <Link to="/">Inicio</Link>
                     </div>
                     <div class="item">
-                            <Link to="/about">Sobre mí</Link>
+                            <Link to="/boneluv-jose-manuel-ramirez-diseno-web">Sobre mí</Link>
                         </div>
                         <div class="item">
-                                <Link to="portfolio">Portfolio</Link>
+                                <Link to="/portfolio">Portfolio</Link>
                             </div>
                             <div class="item">
-                                    <Link to="prices">Servicios</Link>
+                                    <Link to="/planes-y-precios-diseno-web-marketing-digital">Servicios</Link>
                                 </div>
                             <div class="item">
-                                    <Link to="blog">Blog</Link>
+                                    <Link to="/blog">Blog</Link>
                                 </div>
                 </span>
                 
                 <span class="buttons">
                     <div class="item" style={{marginRight:'10px'}}>
-                        <Link class="accent alt" to="/contact" activeClassName="accent alt">Contacto</Link>
+                        <Link class="accent alt" to="/contacto" activeClassName="accent alt">Contacto</Link>
                     </div>
                     <div class="item">
-                        <Link class="accent" to="/prices" activeClassName="accent">Precios</Link>
+                        <Link class="accent" to="/planes-y-precios-diseno-web-marketing-digital" activeClassName="accent">Precios</Link>
                     </div>        
                 </span>
                 

@@ -1,7 +1,7 @@
 ---
 title: BL Gang Streetwear
 description: Desarrollo web ecommerce
-date: '2018-12-2'
+date: '2019-12-2'
 image: 'imgs/instabl.png'
 template: "port"
 tags: ['HTML','CSS','JavaScript','Shopify']

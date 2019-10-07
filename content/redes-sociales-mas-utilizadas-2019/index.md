@@ -1,7 +1,7 @@
 ---
 title: Redes sociales más utilizadas en 2019
 description: Descubre cuales son las redes que más triunfan
-date: '2018-12-2'
+date: '2019-12-2'
 image: ./imgs/redes-sociales.svg
 template: 'blog'
 tags: ['redes sociales','marketing']

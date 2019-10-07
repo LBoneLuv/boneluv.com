@@ -1,7 +1,7 @@
 ---
 title: Camera di Commercio Arezzo
 description: Rediseño web responsive
-date: '2018-12-2'
+date: '2017-01-2'
 image: 'imgs/cc-italia.png'
 template: "port"
 tags: ['HTML','CSS','JavaScript',Joomla]
