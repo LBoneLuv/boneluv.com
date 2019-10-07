@@ -17,7 +17,7 @@ export default () => (
                         <FontAwesomeIcon icon={faPaperPlane} style={{marginTop:'10px'}}/>
                         <span style={{fontSize:'13px',marginLeft:'5px',}}>Contacto</span>
                     </Link>
-                    <Link to="/prices" class="btn noicon green" activeClassName="btn noicon green">
+                    <Link to="/planes-y-precios-diseno-web-marketing-digital" class="btn noicon green" activeClassName="btn noicon green">
                         <FontAwesomeIcon icon={faFileAlt} style={{marginTop:'10px'}}/>
                         <span>Precios</span>
                     </Link>
