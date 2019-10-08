@@ -1,9 +1,10 @@
 ---
 title: Redes sociales más utilizadas en 2019
-description: Descubre cuales son las redes que más triunfan
+description: Descubre cuales son las redes mas utilizadas por los usuarios en este 2019. Rivalidad entre Facebook, Instagram, Twitter, etc.
 date: '2019-12-2'
 image: ./imgs/redes-sociales.svg
 template: 'blog'
+slugseo:
 tags: ['redes sociales','marketing']
 ---
 ![SEO](/imgs/redes-sociales.png#postimage)

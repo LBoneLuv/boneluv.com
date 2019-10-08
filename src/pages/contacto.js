@@ -10,7 +10,9 @@ require ("./main.css")
 export default () => (
     <div style={{background:'#FFF'}}>
         <Helmet>
-            <title>Contacto | Boneluv</title>
+            <title>Contacto | Boneluv - Diseño web, WordPress y Marketing digital </title>
+            <meta name="description" content="Solicita ya tu presupuesto personalizado en diseño web, redes sociales o marketing digital. Descubre nuestros planes y precios." />
+            <meta name="keywords" content="boneluv,diseño web, diseño web a medida,presupuesto diseño web, diseño web en sevilla" />
         </Helmet>    
         
         <Header/>

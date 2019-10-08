@@ -7,7 +7,7 @@ import { graphql } from "gatsby"
 function PortPost(props) {
 
     const port = props.data.markdownRemark;
-    const { title } = port.frontmatter;
+    const { title,slugseo } = port.frontmatter;
 
     return (
         <Layout>
@@ -31,6 +31,9 @@ export const query = graphql`
      markdownRemark(fields: { slug: { eq: $slug } }) {
        html
        excerpt
+       fields{
+           slug
+       }
        frontmatter {
         title
         description

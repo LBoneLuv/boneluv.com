@@ -1,5 +1,6 @@
 ---
 title: TECHE Clothing
+slugseo: teche-clothing
 description: Desarrollo web ecommerce
 date: '2017-12-2'
 image: 'imgs/techecover.png'

@@ -10,6 +10,12 @@ import { faArrowAltCircleRight,faFileAlt } from "@fortawesome/free-regular-svg-i
 require ("./main.css")
 export default () => (
     <div style={{background:'#FFF'}}>
+        <Helmet>
+            <title>Sobre mí | Boneluv - Diseño web, WordPress y Marketing digital</title>
+            <meta name="description" content="Diseñador web en sevilla: diseño web a medida para cualquier tipo de web, página web corporativa, blog, tienda online.
+                 En Boneluv realizamos posicionamiento web y gestionamos tus redes sociales. " />
+            <meta name="keywords" content="boneluv,diseño web, diseño web a medida, diseño web profesional, diseño web en sevilla" />
+        </Helmet>
     <Header />
     <div id="publicProfile">
         <div class="pp-header">

@@ -4,6 +4,7 @@ description: Desarrollo web ecommerce
 date: '2019-12-2'
 image: 'imgs/instabl.png'
 template: "port"
+slugseo:
 tags: ['HTML','CSS','JavaScript','Shopify']
 ---
 

@@ -13,6 +13,11 @@ const IndexPage = (props) => {
     const postList = props.data.allMarkdownRemark;
     return (
       <Layout>
+        <Helmet>
+            <title>Blog | Boneluv - Diseño web, WordPress y Marketing digital</title>
+            <meta name="description" content="Entra en nuestro blog y descubre todas las novedades y trucos en diseño web, wordpress, marketing, tecnologia y mas." />
+            <meta name="keywords" content="boneluv,diseño web, blog diseño web, diseño web profesional, diseño web en sevilla" />
+        </Helmet>
           <Header/>
           <div class="landing-silhouette">
             <h1 class="big">Blog</h1>
@@ -64,6 +69,7 @@ const IndexPage = (props) => {
               description
               image
               tags
+              
             }
           }
         }

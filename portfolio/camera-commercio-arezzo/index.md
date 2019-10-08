@@ -4,6 +4,7 @@ description: Rediseño web responsive
 date: '2017-01-2'
 image: 'imgs/cc-italia.png'
 template: "port"
+slugseo:
 tags: ['HTML','CSS','JavaScript',Joomla]
 ---
 

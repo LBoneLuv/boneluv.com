@@ -1,10 +1,11 @@
 ---
 title: Cómo mejorar mi SEO en WordPress
-description: ¡Aumenta tu SEO con algunas estrategias básicas!
+description: ¡Aumenta tu SEO con algunas estrategias básicas! Descubre algunos trucos para mejorar tu posicionamiento en WordPress, plugins y más.
 date: '2018-12-2'
 image: ./imgs/wordpresscover.svg
 template: 'blog'
 tags: ['seo','wordpress','posicionamiento']
+slugseo: 
 ---
 ![SEO](/imgs/wordpresscover.png#postimage)
 

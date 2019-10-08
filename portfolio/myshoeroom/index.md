@@ -4,6 +4,7 @@ description: Desarrollo web ecommerce
 date: '2016-01-2'
 image: 'imgs/myshoecover.png'
 template: "port"
+slugseo:
 tags: ['HTML','CSS','JavaScript','WooCommerce']
 ---
 
