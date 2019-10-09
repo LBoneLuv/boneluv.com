@@ -4,6 +4,9 @@ var plugins = [{
     },{
       plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/bone 04-10-19/boneluv.com/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('C:/Users/Boneluv/Desktop/CHEMA/WEB/bone 04-10-19/boneluv.com/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[],"output":"/sitemap.xml","query":"\n          {\n            site {\n              siteMetadata {\n                siteUrl\n              }\n            }\n  \n            allSitePage {\n              edges {\n                node {\n                  path\n                }\n              }\n            }\n        }"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
