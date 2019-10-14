@@ -74,10 +74,10 @@ export default () => (
                     </div>
                     <div class="half">
                         <h5>SEO Local</h5>
-                        <p>Página diseñada para atraer personas a tu negocio y convertirlos en clientes potenciales.</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Orientada a conversiones</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formulario/compra</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Optimizada para anuncios</p>
+                        <p>Plan objetivo para pequeñas empresas que quieran obtener un posicionamiento a nivel local.</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Hasta 3 palabras clave</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Posicionamiento local</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de Google Analytics y Search console</p>
                         <Link class="btn noicon" to="/portfolio">
                             <FontAwesomeIcon icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                             <span>Ver planes</span>
@@ -90,10 +90,10 @@ export default () => (
                 <div class="landing-content right">
                     <div class="half">
                         <h5>SEO Empresa</h5>
-                        <p>Página web corporativa para ofertar y mostrar sus servicios profesionales y conseguir presencia en internet.</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Ofrecer información sobre empresa, productos o servicios</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Aumentar presencia local y en el extranjero</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formularios y redes sociales</p>
+                        <p>Plan pensado para empresas con orientación a nivel nacional para poder llegar al mayor numero de clientes.</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Hasta 6 palabras clave</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Posicionamiento nacional</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de Google Analytics y Search console</p>
                         <Link class="btn noicon" to="/portfolio">
                             <FontAwesomeIcon icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                             <span>Ver planes</span>
@@ -111,10 +111,10 @@ export default () => (
                     </div>
                     <div class="half">
                         <h5>SEO Ecommerce</h5>
-                        <p>Obtén tu propia tienda online para incrementar vender sus productos y aumentar sus ingresos.</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Catálogo de productos</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formulario/compra</p>
-                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Autogestionable</p>
+                        <p>Ideal para posicionar tu tienda online a nivel nacional con un plan organizado.</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Palabras clave por categorias y productos</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Optimización SEO para productos.</p>
+                        <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de Google Analytics y Search console</p>
                         <Link class="btn noicon" to="/portfolio">
                             <FontAwesomeIcon icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                             <span>Ver planes</span>
