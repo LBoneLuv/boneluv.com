@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Header from "../../components/header"
 import Footer from "../../components/footer"
+import { Breadcrumb } from 'gatsby-plugin-breadcrumb'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRocket,faUsers, faDraftingCompass, faBullhorn, faCrop, faMagic, faCheck, faCheckCircle, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { faArrowAltCircleRight,  } from "@fortawesome/free-regular-svg-icons"
@@ -67,7 +68,7 @@ export default () => (
             <div class="landing-item" style={{marginBottom:'20px;'}}>
                 <div class="landing-content left">
                 <div class="image" style={{marginBottom:'40px',marginTop:'40px'}}>
-                        <img src={'../imgs/landing.svg'} />
+                        <img src={'/imgs/landing.svg'} />
                     </div>
                     <div class="half">
                         <h5>Landing page</h5>
@@ -75,7 +76,7 @@ export default () => (
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Orientada a conversiones</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formulario/compra</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Optimizada para anuncios</p>
-                        <Link class="btn noicon" to="/portfolio">
+                        <Link class="btn noicon" to="/servicios/diseno-web/landing-page">
                             <FontAwesomeIcon icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                             <span>Ver planes</span>
                         </Link>
@@ -91,20 +92,20 @@ export default () => (
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Ofrecer información sobre empresa, productos o servicios</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Aumentar presencia local y en el extranjero</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formularios y redes sociales</p>
-                        <Link class="btn noicon" to="/portfolio">
+                        <Link class="btn noicon" to="/servicios/diseno-web/web-corporativa">
                             <FontAwesomeIcon icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                             <span>Ver planes</span>
                         </Link>
                     </div>
                     <div class="image" style={{marginBottom:'40px',marginTop:'40px'}}>
-                        <img src={'../imgs/business.svg'} />
+                        <img src={'/imgs/business.svg'} />
                     </div>
                 </div>
             </div>
             <div class="landing-item"  style={{marginBottom:'20px;'}}>
                 <div class="landing-content left">
                 <div class="image" style={{marginBottom:'40px',marginTop:'40px'}}>
-                        <img src={'../imgs/shoponline.svg'} />
+                        <img src={'/imgs/shoponline.svg'} />
                     </div>
                     <div class="half">
                         <h5>Tienda online</h5>
@@ -112,7 +113,7 @@ export default () => (
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Catálogo de productos</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Integración de formulario/compra</p>
                         <p><FontAwesomeIcon icon={faCheckCircle}  style={{color:'#ff187c'}} /> Autogestionable</p>
-                        <Link class="btn noicon" to="/portfolio">
+                        <Link class="btn noicon" to="/servicios/diseno-web/tienda-online">
                             <FontAwesomeIcon icon={faArrowAltCircleRight} style={{marginTop:'10px'}}/>
                             <span>Ver planes</span>
                         </Link>

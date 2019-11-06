@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-faq-js","path":"/faq/","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{"componentChunkName":"component---src-pages-faq-js","path":"/faq/","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true,"breadcrumb":{"location":"/faq/","crumbs":[{"pathname":"/","crumbLabel":"Inicio"},{"pathname":"/faq","crumbLabel":"faq"}]}}}}

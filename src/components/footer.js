@@ -13,7 +13,7 @@ export default () => (
                 <h3>Lanza tu proyecto ya</h3>
                 <h4>Ponte en contacto conmigo y te asesoraré lo mejor posible.</h4>
                 <div class="buttons">
-                    <Link to="/contact" class="btn noicon" activeClassName="btn noicon">
+                    <Link to="/contacto" class="btn noicon" activeClassName="btn noicon">
                         <FontAwesomeIcon icon={faPaperPlane} style={{marginTop:'10px'}}/>
                         <span style={{fontSize:'13px',marginLeft:'5px',}}>Contacto</span>
                     </Link>

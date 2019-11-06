@@ -34,12 +34,3 @@ Con respecto al **desarrollo web** esta web está basada en **WordPress** con la
 
 ![BL Gang](/imgs/bl-gang-2.png)
 
-<div style="margin: 20px 0;border-radius:8px;background-color: #2cf7a4;text-align: center">
-            <h1>Comentame tu proyecto y solicita tu presupuesto</h1>
-            <h2>Rápido y sin compromiso.</h2>
-            <div class="buttons" onclick="window.location.href='/contact'">
-                <button class="btn black big noicon reverse" style="margin-bottom:20px;" >
-                    <span>¿Hablamos?</span>
-                </button>
-            </div>
-        </div>

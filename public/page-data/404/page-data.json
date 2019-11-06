@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-404-js","path":"/404/","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{"componentChunkName":"component---src-pages-404-js","path":"/404/","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true,"breadcrumb":{"location":"/404/","crumbs":[{"pathname":"/","crumbLabel":"Inicio"},{"pathname":"/404","crumbLabel":"404"}]}}}}

@@ -16,8 +16,17 @@ exports.components = {
   "component---src-pages-planes-y-precios-diseno-web-marketing-digital-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\planes-y-precios-diseno-web-marketing-digital.js"))),
   "component---src-pages-portfolio-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\portfolio.js"))),
   "component---src-pages-servicios-diseno-web-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\diseno-web.js"))),
+  "component---src-pages-servicios-diseno-web-landing-page-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\diseno-web\\landing-page.js"))),
+  "component---src-pages-servicios-diseno-web-tienda-online-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\diseno-web\\tienda-online.js"))),
+  "component---src-pages-servicios-diseno-web-web-corporativa-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\diseno-web\\web-corporativa.js"))),
   "component---src-pages-servicios-posicionamiento-web-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\posicionamiento-web.js"))),
+  "component---src-pages-servicios-posicionamiento-web-seo-ecommerce-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\posicionamiento-web\\seo-ecommerce.js"))),
+  "component---src-pages-servicios-posicionamiento-web-seo-empresa-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\posicionamiento-web\\seo-empresa.js"))),
+  "component---src-pages-servicios-posicionamiento-web-seo-local-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\posicionamiento-web\\seo-local.js"))),
   "component---src-pages-servicios-redes-sociales-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\redes-sociales.js"))),
+  "component---src-pages-servicios-redes-sociales-influencia-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\redes-sociales\\influencia.js"))),
+  "component---src-pages-servicios-redes-sociales-marca-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\redes-sociales\\marca.js"))),
+  "component---src-pages-servicios-redes-sociales-presencia-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\servicios\\redes-sociales\\presencia.js"))),
   "component---src-pages-submited-js": hot(preferDefault(require("C:\\Users\\Boneluv\\Desktop\\CHEMA\\WEB\\bone 04-10-19\\boneluv.com\\src\\pages\\submited.js")))
 }
 

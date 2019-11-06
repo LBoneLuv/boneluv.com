@@ -11,6 +11,40 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-netlify-identity`,
+      options: {
+        url: `https://www.boneluv.com/` // required!
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-crisp-chat',
+      options: {
+        websiteId: '6d863b44-dff8-42fd-8bd0-dbac3fe730d3',
+        enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
+        defer: false, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
+        enableImprovedAccessibility: false // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-breadcrumb`,
+      options: {
+        // useAutoGen: required 'true' to use autogen
+        useAutoGen: true,
+        // autoGenHomeLabel: optional 'Home' is default
+        autoGenHomeLabel: `Inicio`,
+        // exlude: optional, include to overwrite these default excluded pages
+        exclude: [
+          `/dev-404-page`,
+          `/404`,
+          `/404.html`,
+          `/offline-plugin-app-shell-fallback`,
+        ],
+        // optional: switch to className styling
+        // see `useClassNames example with `AutoGen` below
+        useClassNames: true,
+    }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-boneluv`,
