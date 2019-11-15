@@ -11,9 +11,9 @@ tags: ['redes sociales','marketing']
 
 >Facebook, Instagram, Snapchat: La guerra de las redes
 
-En pleno 2019 donde las marcas más grandes del mundo son las tecno
+En pleno 2019 donde las marcas más grandes del mundo son las tecnológicas, existe una batalla que todas quieren ganar y es ser la red social más popular y usada de todas.
 
-## SEO asequible
+## Facebook: La abuela de todas
 
 >Asegúrate de tener un nombre de dominio propio
 
@@ -53,5 +53,5 @@ Si bien los **plugins** de **WordPress** son interesantes a veces, no quieres so
 
 Quizás el consejo de **SEO** más importante para **WordPress** es asegurarse de que su sitio sea compatible con **dispositivos móviles**. Google implementó la necesidad de que todos los sitios lo sean en su algoritmo. Si su sitio no se puede ver en una tablet o en un smartphone, no se verá en las primeras páginas de los resultados del motor de búsqueda. Comprueba la **visibilidad** de tu sitio antes de ponerlo en marcha.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTIwMDYwN119
+eyJoaXN0b3J5IjpbLTEwNDkwMTI2NDJdfQ==
 -->
