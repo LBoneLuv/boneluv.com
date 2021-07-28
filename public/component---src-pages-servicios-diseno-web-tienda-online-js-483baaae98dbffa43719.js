@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{252:function(e,n,a){"use strict";a.r(n);var t=a(0),l=a.n(t),u=(a(240),a(238)),c=a(237);a(62),a(122),a(78),a(15);a(239),n.default=function(){return l.a.createElement("div",null,l.a.createElement(u.a,null),l.a.createElement("div",null,"tienda online"),l.a.createElement(c.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-servicios-diseno-web-tienda-online-js-483baaae98dbffa43719.js.map

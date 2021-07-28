@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{253:function(e,n,a){"use strict";a.r(n);var t=a(0),l=a.n(t),r=(a(240),a(238)),c=a(237);a(62),a(122),a(78),a(15);a(239),n.default=function(){return l.a.createElement("div",null,l.a.createElement(r.a,null),l.a.createElement("div",null,"web corporativa"),l.a.createElement(c.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-servicios-diseno-web-web-corporativa-js-eb5e16d6b0625fb11b43.js.map
